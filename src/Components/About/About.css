@@ -1,0 +1,14 @@
+.about-back{
+    background-color: var(--secondary-dark-blue);
+}
+
+.about-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.about-image-back{
+    background-color: var(--secondary-dark-blue);
+    z-index: 2;
+}

@@ -1,0 +1,21 @@
+.features-card {
+    padding: 20px;
+    transition: all ease-in 0.3s;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: #f6f9fc;
+}
+
+.features-icon {
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: var(--primary-light-orange);
+    font-weight: 600;
+}
+
+.features-card:hover {
+    background-color: var(--secondary-blue);
+    color: white;
+    transition: all ease 0.3s;
+}

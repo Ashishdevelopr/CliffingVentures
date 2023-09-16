@@ -1,0 +1,27 @@
+.static-image {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://allovermedia.com/wp-content/uploads/2022/08/AOM_Volleyball_2022_Group_OUR-TEAM-scaled-e1661794468769.jpg.webp');
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    padding: 40px 40px;
+    background-repeat: no-repeat;
+    height: 600px;
+    border-radius: 20px;
+    background-position: center;
+    
+}
+
+.team-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 20px #000;
+    position: relative;
+    top: 200px;
+    flex-direction: column;
+}
+
+.team-back{
+    background-color: var(--secondary-blue);
+    width: 100%;
+}

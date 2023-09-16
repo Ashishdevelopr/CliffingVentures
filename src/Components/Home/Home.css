@@ -1,0 +1,53 @@
+.home-top{
+    margin: 0px !important;
+}
+
+.gradient-text{
+  background-image: linear-gradient(to left, #1F3B70, #FFAE3B);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+}
+
+/* Home 2 css */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+  }
+  
+  @media (min-width: 768px) {
+    .bd-placeholder-img {
+      font-size: 3.5rem;
+    }
+  }
+  
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+    color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+  }
+  
+  .carousel-caption h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+  }
+  
+  .btn-color {
+    background-color: var(--secondary-blue);
+    color:white;
+  }
+  
+  .btn-color:hover {
+    background-color: var(--primary-light-orange);
+  }
+  
+  .head-color {
+    color: var(--primary-light-orange);
+  }
+  
+  .carousel-item {
+    height: 32rem;
+  }
+

@@ -1,0 +1,40 @@
+
+.contact-back{
+    background-color: #fbfbfb;
+}
+
+.contact-btn{
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    border-radius: 25px;
+    background-color: #FFAE3B;
+    color: white;
+    transition: all ease-in 0.3s;
+}
+
+.contact-btn:hover{
+    background-color: black;
+    color:white;
+}
+
+
+.form-control:focus{
+    border-color: var(--primary-light-orange);
+    box-shadow: 0 0 0 0.2rem rgba(255, 165, 0, 0.2);
+}
+
+/* detailed contact page */
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
