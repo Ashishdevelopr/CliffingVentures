@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Navbar.css"
 import cliffingVentures from "../../assets/CFV.svg"
+import { NavLink } from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse nav-section" id="navbarSupportedContent">
             <ul className="navbar-nav mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/about-us">About</a>
+                <NavLink className="nav-link active" aria-current="page" to="/about-us">About</NavLink>
               </li>
 
               <li className="nav-item dropdown">
@@ -28,16 +29,16 @@ const Navbar = () => {
                 </a>
 
                 <ul className="dropdown-menu ">
-                  <li><a className="dropdown-item " href="/service-broking">Broking</a></li>
-                  <li><a className="dropdown-item " href="/service-investment">Portfolio Management</a></li>
-                  <li><a className="dropdown-item " href="/service-mutual">Mutual Funds</a></li>
+                  <li><NavLink className="dropdown-item " to="/service-broking">Broking</NavLink></li>
+                  <li><NavLink className="dropdown-item " to="/service-investment">Portfolio Management</NavLink></li>
+                  <li><NavLink className="dropdown-item " to="/service-mutual">Mutual Funds</NavLink></li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/team-members">Team</a>
+                <NavLink className="nav-link active" aria-current="page" to="/team-members">Team</NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link active button-primary" href="/contact-us">Conatct Now</a>
+                <NavLink className="nav-link active button-primary" to="/contact-us">Conatct Now</NavLink>
               </li>
               <li className="nav-item d-none d-lg-block">
                 <a className="nav-link  navbar-socials" aria-current="page" href="https://wa.me/919324280652" target="_blank"><i class="fa-brands fa-whatsapp  nav-icons"></i></a>

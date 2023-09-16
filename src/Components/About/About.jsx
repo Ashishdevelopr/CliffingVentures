@@ -26,7 +26,7 @@ const About = () => {
                                we are here to guide you every step of the way. With a commitment to trust, transparency, and results, we measure our success by your success. </p>
 
                         <div class="d-grid gap-3 d-md-flex justify-content-md-start">
-                            <button type="button" class="button-secondary" onClick={()=>{navigate("/about-us")}}>Know More About Us</button>
+                            <button type="button" class="button-primary" onClick={()=>{navigate("/about-us")}}>Know More About Us</button>
                         </div>
                     </div>
 
@@ -35,10 +35,8 @@ const About = () => {
                             <img src={AboutTeam} className="img-fluid" width="120%" height="150%" />
                         </div>
                     </div>
-
                 </div>
             </div>
-            
         </div>
     )
 }

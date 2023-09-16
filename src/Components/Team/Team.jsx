@@ -1,7 +1,9 @@
 import React from 'react';
 import './Team.css';
+import { useNavigate } from 'react-router-dom';
 
 const Team = () => {
+    const navigate = useNavigate()
     return (
         <div className='team-back p-5'>
             <div className='row'>
@@ -17,7 +19,7 @@ const Team = () => {
                         <div className='col-12'>
                             <div className='team-text'>
                                 <h1 className='display-2 fw-bold text-white'>OUR TEAM</h1>
-                                <button type='button' className='button-primary px-4 me-md-2'>
+                                <button type='button' className='button-primary px-4 me-md-2' onClick={()=>{navigate('/team-members')}}>
                                     Know More
                                 </button>
                             </div>
