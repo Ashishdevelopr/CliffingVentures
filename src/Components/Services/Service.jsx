@@ -20,7 +20,7 @@ const Service = () => {
     ]
     return (
         <div className='service-back' id="services">
-            <div className='container '>
+            <div className='container-lg '>
                 <div className='row'>
                     <div className='col-md-12'>
                         <h5 className='page-title'>Our Services</h5>
@@ -30,7 +30,7 @@ const Service = () => {
                 </div>
             </div>
 
-            <div className='container '>
+            <div className='container-lg '>
                 <div className='row pt-4'>
                     <div className="col">
                         <div className="row row-cols-1 row-cols-md-3 g-4">

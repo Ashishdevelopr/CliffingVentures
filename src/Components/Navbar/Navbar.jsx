@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className='navbar-start bg-white'>
       <nav className="navbar navbar-expand-lg">
-        <div className="container-fluid">
+        <div className="container-lg">
           <a href="/">
           <img src={cliffingVentures} alt="Cliffing_Ventures_Logo" className="d-inline-block align-text-top cliffing-logo img-fluid"/>
           </a>

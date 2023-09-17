@@ -31,7 +31,7 @@ function App() {
               <About />
               {/* <AboutImage/> */}
               <Features />
-              <Team />
+              {/* <Team /> */}
               <Contacts />
               <FAQ />
               
@@ -41,7 +41,7 @@ function App() {
             <Route path='/about-us' element={<DetailedAbout/>}/>
 
             {/* Team Route */}
-            <Route path='/team-members' element={<DetailedTeam/>}/>
+            {/* <Route path='/team-members' element={<DetailedTeam/>}/> */}
 
             {/* Team Route */}
             <Route path='/contact-us' element={<DetailedContact/>}/>

@@ -37,12 +37,12 @@ const Features = () => {
 
   return (
     <div>
-      <div className='container col-xxl-8 px-2 mb-5'>
+      <div className='container-lg col-xxl-8'>
         <div className='row'>
-          <div className='col-md-12 py-5 mb-4'>
+          <div className='col-md-12 px-5 py-5 my-5 mx-auto text-center'>
             <h5 className='page-title'>Our Features</h5>
             <h2 className='lh-1 display-5 fw-bold d-flex justify-content-center'>Explore Our Uniqueness</h2>
-            <p className='d-flex justify-content-center'>Our Extraordinary Array of Unique and Innovative Features Set Us Apart from the Rest.</p>
+            <p className='d-flex justify-content-center '>Our Extraordinary Array of Unique and Innovative Features Set Us Apart from the Rest.</p>
           </div>
         </div>
 

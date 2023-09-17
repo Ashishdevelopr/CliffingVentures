@@ -5,8 +5,8 @@ import Question from "../../assets/Question.svg"
 const FAQ = () => {
   return (
     <div id="question" className='reveal faq-background'>
-      <div className='row'>
-                    <div className='col-md-12 py-5 mb-4'>
+      <div className='container-lg row-cols text-center '>
+                    <div className='col-md-12 py-5 px-2 px-md-5  mb-4 mx-2'>
                         <h5 className='page-title'>Get Answers</h5>
                         <h2 className="lh-1 page-subtitle display-5 fw-bold d-flex justify-content-center ">Frequently Asked Questions</h2>
                         <p className='page-title-desc d-flex justify-content-center'>Answers to common questions about our services and processes, helping customers find quick solutions to their queries.</p>
@@ -15,8 +15,8 @@ const FAQ = () => {
 
       {/* question section */}
       <section className="mt-0 mb-5">
-    <div className="container">
-        <div className="row">
+    <div className="container-lg">
+        <div className="row mx-2">
             <div className="col-md-7">
                 <div className="accordion accordion-flush" id="faqlist">
                     <div className="accordion-item questions-border">

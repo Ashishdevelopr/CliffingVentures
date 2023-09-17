@@ -38,3 +38,14 @@
     width:100%;
     position:absolute;
 }
+
+
+@media (max-width: 576px) { 
+.small-map{
+    width: 340px;
+    height: 450px;
+    border: 2px solid red;
+    margin: auto 0;
+}
+
+ }

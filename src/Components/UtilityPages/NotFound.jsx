@@ -7,7 +7,7 @@ const NotFound = () => {
   const navigate = useNavigate()
   return (
     <div>
-      <div className="container py-5">
+      <div className="container-lg py-5">
         {/* <div className="row">
           <div className="col-6">
           <img src={notFound404} className="image-404 img-fluid"  alt="Notfound-404"/>

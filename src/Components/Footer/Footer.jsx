@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="footerback">
        
-    <div className="container py-5  mx-auto ">
+    <div className="container-lg py-5  mx-auto ">
       <div className="row">
         <div className="col-xl-3 col-lg-4 col-md-6">
           <div>
@@ -75,7 +75,7 @@ const Footer = () => {
       </div>
       
     </div>
-    <div className="container">
+    <div className="container-lg">
     <div className="d-flex justify-content-between pt-1 border-top border-warning border-opacity-50">
       <p>&copy; 2023 Company, Inc. All rights reserved.</p>
     </div>

@@ -5,7 +5,7 @@ import "./About.css"
 const AboutImage = () => {
     return (
         <div className='about-image-back'>
-            <div className='container col-xxl-8'>
+            <div className='container-lg col-xxl-8'>
                 <div className="row">
                     <div class="col-lg-12">
                     <div className=''>

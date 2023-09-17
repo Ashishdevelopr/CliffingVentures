@@ -9,8 +9,8 @@ const Home = () => {
 
   const navigate = useNavigate()
     return (
-        <div className='container col-xxl-8 px-2 mb-5 py-4'>
-        <div className="row flex-lg-row align-items-center g-5">
+        <div className='container-lg my-2 py-2 px-md-3  px-2 mx-auto'>
+        <div className="row flex-lg-row align-items-center">
             <div class="col-lg-7">
                 <h1 class="display-3 fw-bold text-body-emphasis align-center lh-sm mb-3">
                 We Navigate the Path to Unlock Financial <span  className="gradient-text typewriter">

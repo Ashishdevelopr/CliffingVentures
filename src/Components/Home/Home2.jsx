@@ -18,7 +18,7 @@ const Home2 = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img className="bd-placeholder-img" src={sl1} width="100%" height="100%" aria-hidden="true" focusable="false"></img>
-            <div className="container">
+            <div className="container-lg">
               <div className="carousel-caption text-start">
                 <h1>Maximize Your <span className='head-color'>Wealth</span></h1>
                 <p>Unlock the path to financial success with our expert investment tips and strategies.</p>
@@ -28,7 +28,7 @@ const Home2 = () => {
           </div>
           <div className="carousel-item">
             <img className="bd-placeholder-img" src={sl2} width="100%" height="100%" aria-hidden="true" focusable="false"></img>
-            <div className="container">
+            <div className="container-lg">
               <div className="carousel-caption">
                 <h1>Take Control of Your <span className='head-color'>Finances</span> </h1>
                 <p>Learn effective budgeting techniques to secure your financial future.</p>
@@ -38,7 +38,7 @@ const Home2 = () => {
           </div>
           <div className="carousel-item">
             <img className="bd-placeholder-img" src={sl3} width="100%" height="100%" aria-hidden="true" focusable="false"></img>
-            <div className="container">
+            <div className="container-lg">
               <div className="carousel-caption text-end">
                 <h1>Financial Freedom <span className="head-color"> Made Easy </span></h1>
                 <p>Empower yourself with our comprehensive resources to achieve financial independence.</p>

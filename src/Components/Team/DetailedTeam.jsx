@@ -69,7 +69,7 @@ const DetailedTeam = () => {
       </div>
 
 
-      <div className=' container mb-5'>
+      <div className=' container-lg mb-5'>
 
         <div className="row g-4">
           {/* <!-- All Team Members --> */}

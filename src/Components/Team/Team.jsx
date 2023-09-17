@@ -14,7 +14,7 @@ const Team = () => {
                     </div>
                 </div>
             <div className='static-image mb-4'>
-                <div className='container'>
+                <div className='container-lg'>
                     <div className='row'>
                         <div className='col-12'>
                             <div className='team-text'>

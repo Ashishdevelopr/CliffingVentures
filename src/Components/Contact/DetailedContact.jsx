@@ -12,7 +12,7 @@ const DetailedContact = () => {
       </div>
 
 
-      <div className="container mt-4 mb-4 py-5">
+      <div className="container-lg mt-4 mb-4 py-5">
         <div className="row flex-lg align-items-center g-5 py-0">
 
           <div className="col-md-5 col-sm-12 col-lg-5 mx-auto d-none d-md-block">
@@ -57,7 +57,7 @@ const DetailedContact = () => {
 
 
       <section class="py-2 py-md-11 mb-3 text-center ">
-        <div class="container">
+        <div class="container-lg">
           <div class="row border-top border-2 border-bottom py-5">
             <div class="col-12 col-md-4">
               <h3>Phone No:</h3>
@@ -91,7 +91,7 @@ const DetailedContact = () => {
         </div>
       </section>
 
-      <div class="container-fluid mb-4">
+      <div class="container-lg-lg mb-4">
         <div class="map-responsive">
           <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" frameborder="0" allowfullscreen></iframe>
         </div>

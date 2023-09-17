@@ -17,7 +17,7 @@ const DetailedAbout = () => {
 
 
       <div>
-        <div className='container col-xxl-8 px-2 mb-5'>
+        <div className='container-lg col-xxl-8 px-2 mb-5'>
 
           {/* 1 */}
           <div className="row flex-lg-row align-items-center service-title g-5">
