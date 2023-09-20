@@ -2,19 +2,18 @@ import React from 'react'
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import Home from './Components/Home/Home'
-import Service2 from './Components/Services/Service2'
 import About from './Components/About/About'
 import Features from './Components/Features/Features'
 import Contacts from './Components/Contact/Contact'
 import FAQ from './Components/FAQ/FAQ'
-import Team from './Components/Team/Team'
 import Footer from './Components/Footer/Footer'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import DetailedAbout from './Components/About/DetailedAbout'
-import DetailedTeam from './Components/Team/DetailedTeam'
 import DetailedContact from './Components/Contact/DetailedContact'
 import ScrollTop from './Components/UtilityPages/ScrollTop'
 import NotFound from './Components/UtilityPages/NotFound'
+import LogoCarousel from './Components/Logoslider/LogoCarousel'
+import Service from './Components/Services/Service'
 
 function App() {
 
@@ -27,11 +26,10 @@ function App() {
           <Route path="/" element={
             <>
               <Home />
-              <Service2 />
+              <LogoCarousel/>
+              <Service/>
               <About />
-              {/* <AboutImage/> */}
               <Features />
-              {/* <Team /> */}
               <Contacts />
               <FAQ />
               

@@ -40,9 +40,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <NavLink className="nav-link active button-primary" to="/contact-us">Conatct Now</NavLink>
               </li>
-              <li className="nav-item d-none d-lg-block">
-                <a className="nav-link  navbar-socials" aria-current="page" href="https://wa.me/919324280652" target="_blank"><i class="fa-brands fa-whatsapp  nav-icons"></i></a>
-              </li>
+              
               <li className="nav-item d-none d-lg-block" >
                 <a className="nav-link navbar-socials" aria-current="page" href="https://www.instagram.com/businessbelieve/" target="_blank"><i class="fa-brands fa-instagram nav-icons"></i></a>
               </li>
