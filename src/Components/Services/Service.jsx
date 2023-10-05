@@ -5,15 +5,17 @@ import Finance from "../../assets/Finance.svg"
 import RealEstate from "../../assets/RealEstate.svg"
 import Broking from "../../assets/advisory.svg"
 import "./Service.css"
+import { useNavigate } from 'react-router-dom'
 
 const Service = () => {
+    const navigate = useNavigate()
+
     const allServices = [
         {
             title:"Led Manufacturing",
             desc:"Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.",
             image:LedManufacturing,
-            btnMore:"finance",
-            btnContact:"contact",
+            btnMore:"led-manufacturing",
             direction:"flex-lg-row",
             order:"order-1 order-0"
         },
@@ -21,8 +23,7 @@ const Service = () => {
             title:"Finance Education",
             desc:"Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.",
             image:Finance,
-            btnMore:"finance",
-            btnContact:"contact",
+            btnMore:"finance-education",
             direction:"flex-lg-row-reverse",
             order:"order-0 order-1"
 
@@ -31,8 +32,7 @@ const Service = () => {
             title:"Broking and Advisory",
             desc:"Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.",
             image:Broking,
-            btnMore:"finance",
-            btnContact:"contact",
+            btnMore:"broking-advisory",
             direction:"flex-lg-row",
             order:"order-1 order-0"
 
@@ -41,8 +41,7 @@ const Service = () => {
             title:"Real Estate",
             desc:"Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.",
             image:RealEstate,
-            btnMore:"finance",
-            btnContact:"contact",
+            btnMore:"real-estate",
             direction:"flex-lg-row-reverse",
             order:"order-0 order-1"
 
@@ -58,10 +57,10 @@ const Service = () => {
                         <p className='page-title-desc d-flex justify-content-center'>Our experts will guide you towards a secure financial future and peace of mind. </p>
                     </div>
                 </div>
-                {/* 1 */}
+
                 {
                     allServices.map((services, id)=>(
-                        <div className={`row ${services.direction}  align-items-center service-title g-5 mb-4 mb-md-0`}>
+                        <div className={`row ${services.direction}  align-items-center service-title g-5 mb-4 mb-md-0`}key={id}>
                     <div class={`${services.order} col-lg-7`}>
                         <h1 class="display-5 fw-bold text-body-emphasis align-center lh-sm mb-3">
                         {services.title}
@@ -69,7 +68,7 @@ const Service = () => {
                         <p class="fw-normal lh-base">{services.desc}</p>
 
                         <div class="d-grid gap-3 d-md-flex justify-content-md-start">
-                            <button type="button" class="button-primary">Know Services</button>
+                            <button type="button" class="button-primary" onClick={()=>{navigate(`${services.btnMore}`)}}>Know Services</button>
                             <button type="button" class="button-secondary d-none d-md-block">Contact Us</button>
                         </div>
                     </div>

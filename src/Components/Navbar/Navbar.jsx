@@ -29,9 +29,10 @@ const Navbar = () => {
                 </a>
 
                 <ul className="dropdown-menu ">
-                  <li><NavLink className="dropdown-item " to="/service-broking">Broking</NavLink></li>
-                  <li><NavLink className="dropdown-item " to="/service-investment">Portfolio Management</NavLink></li>
-                  <li><NavLink className="dropdown-item " to="/service-mutual">Mutual Funds</NavLink></li>
+                  <li><NavLink className="dropdown-item " to="/led-manufacturing">LED Manufacturing</NavLink></li>
+                  <li><NavLink className="dropdown-item " to="/finance-education">Finance Education</NavLink></li>
+                  <li><NavLink className="dropdown-item " to="/real-estate">Real Estate</NavLink></li>
+                  <li><NavLink className="dropdown-item " to="/broking-advisory">Broking Advisory</NavLink></li>
                 </ul>
               </li>
               <li className="nav-item">

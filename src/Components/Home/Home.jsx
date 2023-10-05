@@ -17,7 +17,9 @@ const Home = () => {
                 <Typewriter
                   words={['Brand', 'Vision', 'Culture']}
                   loop={false}
-                  cursor
+                  cursor={true}
+                  cursorColor=' #FFAE3B'
+                  cursorBlinking={true}
                   cursorStyle='|'
                   typeSpeed={100}
                   deleteSpeed={100}

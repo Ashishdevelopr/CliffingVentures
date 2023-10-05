@@ -1,4 +1,9 @@
-
+.slider-title{
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  padding: 0px 0px 10px 10px;
+}
   
   @keyframes slide {
     from {
@@ -11,8 +16,8 @@
   
   .logos {
     overflow: hidden;
-    padding: 60px 0;
-    background-color: rgb(230, 230, 230);
+    padding: 20px 0px 30px 0px;
+    background-color: rgb(243, 243, 243);
     white-space: nowrap;
     position: relative;
   }
@@ -33,7 +38,7 @@
   }
   
   .logos-slide img {
-    height: 50px;
-    margin: 0 40px;
+    height: 100px;
+    margin: 0 30px;
   }
   

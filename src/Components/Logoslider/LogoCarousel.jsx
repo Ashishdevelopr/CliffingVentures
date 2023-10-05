@@ -1,5 +1,10 @@
 import React, { useEffect } from 'react';
 import "./Logo.css"
+import slider1 from "../../assets/slider1.png"
+import slider2 from "../../assets/slider2.png"
+import slider3 from "../../assets/slider3.png"
+import slider4 from "../../assets/slider4.png"
+import slider5 from "../../assets/slider5.png"
 
 const LogoCarousel = () => {
   useEffect(() => {
@@ -11,15 +16,13 @@ const LogoCarousel = () => {
   return (
     <div >
         <div className="logos">
+          <div className='slider-title'>Our Partners: </div>
           <div className="logos-slide">
-            <img src="https://raw.githubusercontent.com/Coding-with-Robby/infinite-logo-carousel/adb1f11a3736ae0b1df43d48bbbb7c1339a77b86/logos/3m.svg" alt="Logo 1" />
-            <img src="https://raw.githubusercontent.com/Coding-with-Robby/infinite-logo-carousel/adb1f11a3736ae0b1df43d48bbbb7c1339a77b86/logos/barstool-store.svg" alt="Logo 2" />
-            <img src="https://raw.githubusercontent.com/Coding-with-Robby/infinite-logo-carousel/adb1f11a3736ae0b1df43d48bbbb7c1339a77b86/logos/budweiser.svg" alt="Logo 3" />
-            <img src="https://raw.githubusercontent.com/Coding-with-Robby/infinite-logo-carousel/adb1f11a3736ae0b1df43d48bbbb7c1339a77b86/logos/buzzfeed.svg" alt="Logo 4" />
-            <img src="https://raw.githubusercontent.com/Coding-with-Robby/infinite-logo-carousel/adb1f11a3736ae0b1df43d48bbbb7c1339a77b86/logos/forbes.svg" alt="Logo 5" />
-            <img src="https://raw.githubusercontent.com/Coding-with-Robby/infinite-logo-carousel/adb1f11a3736ae0b1df43d48bbbb7c1339a77b86/logos/macys.svg" alt="Logo 6" />
-            <img src="https://raw.githubusercontent.com/Coding-with-Robby/infinite-logo-carousel/adb1f11a3736ae0b1df43d48bbbb7c1339a77b86/logos/menshealth.svg" alt="Logo 7" />
-            <img src="https://raw.githubusercontent.com/Coding-with-Robby/infinite-logo-carousel/adb1f11a3736ae0b1df43d48bbbb7c1339a77b86/logos/mrbeast.svg" alt="Logo 8" />
+            <img src={slider1} alt="Logo 1" />
+            <img src={slider2} alt="Logo 1" />
+            <img src={slider3} alt="Logo 1" />
+            <img src={slider4} alt="Logo 1" />
+            <img src={slider5} alt="Logo 1" />
           </div>
         </div>
     </div>
