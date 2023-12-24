@@ -59,31 +59,23 @@ const DetailedContact = () => {
       <section class="py-2 py-md-11 mb-3 text-center ">
         <div class="container-lg">
           <div class="row border-top border-2 border-bottom py-5">
-            <div class="col-12 col-md-4">
-              <h3>Phone No:</h3>
-              <p class="text-body-secondary mb-4 mb-md-0">
-                +91 5852562575<br />
-                +91 8956230214<br />
-                +91 7845120892<br />
-              </p>
-            </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-6">
               <h3>Office Adress: </h3>
               <p class="text-body-secondary mb-4 mb-md-0 text-center">
-                Azad Chawl Committee, Gautam Nagar<br />
-                Kandivali East, Mumbai<br />
-                Maharashtra 400101
+              Mindspace Malad,<br />
+              New Link Rd, Malad West,<br />
+              Mumbai, Maharashtra 400064
 
               </p>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-6">
               <h3>Email Us :</h3>
               <p class="text-body-secondary mb-4 mb-md-0">
-                contact@Cliffingventures.com<br />
-                team@Cliffingventures.com<br />
-                support@Cliffingventures.com<br />
+                contact@cliffingventures.com<br />
+                team@cliffingventures.com<br />
+                support@cliffingventures.com<br />
               </p>
             </div>
 
@@ -93,7 +85,7 @@ const DetailedContact = () => {
 
       <div class="container-lg-lg mb-4">
         <div class="map-responsive">
-          <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" frameborder="0" allowfullscreen></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7536.571746999548!2d72.82653607865126!3d19.182712304699965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6f3da079a5d%3A0x8b3c3da957c65f50!2sMindspace%20Malad!5e0!3m2!1sen!2sin!4v1694952798577!5m2!1sen!2sin" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
 

@@ -18,6 +18,9 @@ import BrokingAdvisory from './Components/Services/DetailedServices/BrokingAdvis
 import Led from './Components/Services/DetailedServices/Led'
 import RealEstate from './Components/Services/DetailedServices/RealEstate'
 import Finance from './Components/Services/DetailedServices/Finance'
+import Gallery from './Components/Gallery/Gallery'
+import Lead from './Components/Lead/Lead'
+import Detailgallery from './Components/Gallery/Detailgallery'
 
 
 function App() {
@@ -35,7 +38,9 @@ function App() {
               <Service/>
               <About />
               <Features />
+              <Lead/>
               <Contacts />
+              <Gallery/>
               <FAQ />
               
             </>}></Route>
@@ -45,6 +50,9 @@ function App() {
 
             {/* Team Route */}
             <Route path='/contact-us' element={<DetailedContact/>}/>
+
+            {/* Our Gallery */}
+            <Route path='/gallery' element={<Detailgallery/>}/>
 
             {/* LED Manufacturing */}
             <Route path='/led-manufacturing' element={<Led/>}/>

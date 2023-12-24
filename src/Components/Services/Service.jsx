@@ -13,7 +13,7 @@ const Service = () => {
     const allServices = [
         {
             title:"Led Manufacturing",
-            desc:"Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.",
+            desc:"Our specialization in aluminum die-cast LED components ensures precision, durability, cost-effectiveness for diverse applications, meeting clients' evolving needs in various settings, from towering high-rises to charming small-town streetlights.",
             image:LedManufacturing,
             btnMore:"led-manufacturing",
             direction:"flex-lg-row",
@@ -21,7 +21,7 @@ const Service = () => {
         },
         {
             title:"Finance Education",
-            desc:"Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.",
+            desc:"Our service is dedicated to early financial education in schools, empowering children with essential skills for informed financial decisions, effectively bridging the gap in financial literacy among young adults. Our tailored programs instill practical knowledge, fostering a lifelong understanding of financial concepts.",
             image:Finance,
             btnMore:"finance-education",
             direction:"flex-lg-row-reverse",
@@ -30,7 +30,7 @@ const Service = () => {
         },
         {
             title:"Broking and Advisory",
-            desc:"Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.",
+            desc:"Discover the advantages of financial broking with us. Whether you seek comprehensive services from our full-service brokers or cost-effective options with our discount brokers, we provide access to diverse financial instruments, professional advice, and hassle-free trading. ",
             image:Broking,
             btnMore:"broking-advisory",
             direction:"flex-lg-row",
@@ -39,7 +39,7 @@ const Service = () => {
         },
         {
             title:"Real Estate",
-            desc:"Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.",
+            desc:"Cliffing Venture specializes in diverse real estate transactions, both private and commercial. Our professional approach ensures tailored solutions to meet client needs. We employ strategic expertise, ensuring a seamless experience for our clients by aligning our services with their unique requirements.",
             image:RealEstate,
             btnMore:"real-estate",
             direction:"flex-lg-row-reverse",
@@ -49,7 +49,7 @@ const Service = () => {
     ]
     return (
         <div>
-            <div className='container-lg my-5 py-5 px-md-5  px-4 mx-auto'>
+            <div className='container-lg my-5 py-5 px-md-5  px-4 mx-auto' id="service">
                 <div className='row'>
                     <div className='col-md-12 text-center'>
                         <h5 className='page-title'>Our Services</h5>
@@ -69,7 +69,7 @@ const Service = () => {
 
                         <div class="d-grid gap-3 d-md-flex justify-content-md-start">
                             <button type="button" class="button-primary" onClick={()=>{navigate(`${services.btnMore}`)}}>Know Services</button>
-                            <button type="button" class="button-secondary d-none d-md-block">Contact Us</button>
+                            <button type="button" class="button-secondary d-none d-md-block" onClick={()=>{navigate("/contact-us")}} >Contact Us</button>
                         </div>
                     </div>
                     <div className="col-12 col-sm-11 col-lg-5 mx-auto">

@@ -20,13 +20,9 @@ const About = () => {
                     </div>
                     <div className="row g-5 my-2">
                         <div className="col-lg-6">
-                            <p class="fw-normal lh-base text-white">At Cliffing Ventures, we are driven by a passion for financial empowerment and a commitment to your peace
-                                of mind. With a history spanning over 7 years, we have established ourselves as trusted partners in your financial journey. Our dedicated
-                                team of experts brings together a wealth of knowledge and experience to provide you with tailored solutions that fit your unique needs. <br /><br />
-                                Our story is one of evolution and growth. Since our inception in [Year of Establishment], we have strived to make financial success accessible
-                                to everyone. We understand that your financial aspirations are as unique as you are, and that's why we take a personalized approach to help you
-                                achieve your goals. Whether you're dreaming of a comfortable retirement, investing in your child's education, or safeguarding your family's future,
-                                we are here to guide you every step of the way. With a commitment to trust, transparency, and results, we measure our success by your success. </p>
+                            <p class="fw-normal lh-base text-white">Founded in 2017, Cliffing Ventures has emerged as a prominent player in die casting, specializing in aluminum components for LED street lights. Our clientele includes industry giants such as Bajaj, Cromptons, and Philips, solidifying our reputation as a trusted supplier for major LED light brands. Recognizing the challenges individuals face in navigating financial markets, we expanded our services to include stock broking and advisory. </p>
+                            
+                            <p className='fw-normal lh-base text-white'>Our mission is to empower clients with the knowledge needed to make informed financial decisions. In response to the ever-changing economic landscape, we further diversified into real estate advisory, providing timely guidance to navigate market fluctuations and inflation. At Cliffing Ventures, whether in manufacturing excellence or financial and real estate services, our commitment remains unwavering—to guide individuals towards sustained financial success through informed decision-making. </p>
 
                             <div class="d-grid gap-3 d-md-flex justify-content-md-start">
                                 <button type="button" class="button-primary" onClick={() => { navigate("/about-us") }}>Know More About Us</button>

@@ -21,12 +21,14 @@ const DetailedAbout = () => {
 
           {/* 1 */}
           <div className="row flex-lg-row align-items-center service-title g-5">
-            <div class="col-lg-6">
+            <div class="col-lg-7">
               <h1 class="display-5 fw-bold text-body-emphasis align-center lh-sm mb-3">
                 Our Vision
               </h1>
               <p class="fw-normal lh-base">
-              We here create a future where financial prosperity and real estate success are within reach for everyone. We aim to revolutionize the industries of finance, LED manufacturing, and real estate by providing innovative solutions and unmatched expertise. Our commitment is to empower individuals and businesses with the knowledge and resources they need to thrive in these dynamic fields.                </p>
+              Looking forward, Cliffing Ventures envisions convergence—where manufacturing excellence, financial empowerment, and real estate guidance create a holistic platform for client success. In manufacturing, our vision is to lead by consistently delivering products that exceed expectations and solidifying our position as the preferred supplier for major LED light brands.<br></br><br></br>
+
+In finance, our vision is transformative, fostering a community empowered with financial literacy. Through personalized stock broking services and advisory, we envision clients navigating financial markets with strategic foresight, resilience, and unwavering confidence. In real estate advisory, our forward-thinking approach involves staying ahead of market trends, guiding clients to confidently navigate a dynamic real estate landscape. Our goal is to be a trusted partner, providing insights and strategies that align with the long-term objectives of our clients, enabling them to thrive in real estate investments.        </p>
             </div>
             <div className="col-12 col-sm-11 col-lg-5 mx-auto">
               <div className=''>
@@ -43,7 +45,7 @@ const DetailedAbout = () => {
                 Our Approach
               </h1>
               <p class="fw-normal lh-base">
-              Our vision extends beyond the ordinary. We envision a world where financial empowerment is not just a dream but a tangible reality. In the realm of LED manufacturing, we strive to be pioneers, innovating and creating sustainable solutions that illuminate the future. In finance education, we aim to be the beacon of knowledge, guiding individuals and businesses toward financial literacy and independence. In the world of real estate, we aspire to help you find your place in the world, whether it's your first home, a strategic investment, or a thriving business location. Our vision is to be the driving force behind your success, providing the tools and expertise you need to achieve your financial and real estate goals.
+              At Cliffing Ventures, our approach is defined by precision, empowerment, and adaptability. In die casting, we ensure excellence by maintaining stringent quality standards and embracing innovation. The financial sector sees us empowering clients through personalized stock broking services and advisory, promoting transparency and strategic foresight. In real estate, our adaptability keeps us ahead of market trends, offering timely advice. Our integrative approach, spanning manufacturing, finance, and real estate, aims to not only meet but exceed expectations, fostering sustained success and advancement.
                 </p>
             </div>
             <div className="col-12 col-sm-11 col-lg-5 mx-auto">
@@ -62,7 +64,7 @@ const DetailedAbout = () => {
                 Our Process
               </h1>
               <p class="fw-normal lh-base">
-              our process is designed to ensure your success. We begin by thoroughly understanding your goals, whether it's LED manufacturing, financial education, or real estate ventures. Next, we leverage our industry expertise to develop a customized strategy tailored to your needs. Our transparent and efficient process ensures that you receive the support and guidance required to achieve your objectives. From LED manufacturing solutions to real estate investments, we're your trusted partner throughout your journey to financial growth and property ownership.</p>
+              Cliffing Ventures, established in 2017, is on a mission to excel in die casting and empower individuals in finance and real estate. In manufacturing, we set industry benchmarks, providing top-tier aluminum components for LED lights. In finance, we bridge knowledge gaps through personalized stock broking services. Our real estate mission involves offering timely advice, guiding clients through market dynamics. Our comprehensive approach ensures informed decisions, fostering success across sectors and contributing to broader economic advancement.</p>
             </div>
 
             <div className="col-12 col-sm-11 col-lg-5 mx-auto">

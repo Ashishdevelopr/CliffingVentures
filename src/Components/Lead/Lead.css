@@ -1,0 +1,19 @@
+.leadback{
+    background-color:var(--secondary-dark-blue);
+    color: #fff;
+    border-radius: 12px;
+}
+
+.lead-head{
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.lead-caption{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.angle-one{
+    color: #ff9036;
+}

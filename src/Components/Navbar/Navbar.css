@@ -47,8 +47,11 @@ font-weight:700;
 
 .navbar-socials{
     padding: 6px 15px;
-    background-color: rgb(255, 224, 165);
-    color: black;
+    color: var(--secondary-dark-blue);
     border: none;
     border-radius: 4px;
+}
+
+.navbar-socials:hover{
+    color: rgb(7, 135, 7);
 }

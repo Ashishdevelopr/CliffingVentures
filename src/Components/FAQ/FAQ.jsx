@@ -22,13 +22,13 @@ const FAQ = () => {
                     <div className="accordion-item questions-border">
                         <h2 className="accordion-header">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                            What is your web development process?</button>
+                            How many returns can I expect from the market?</button>
                         </h2>
                         <div id="faq-content-1" className="accordion-collapse collapse" data-bs-parent="#faqlist">
                             <div className="accordion-body">
-                            Our web development process involves discovery, planning, design, development, testing, and deployment. We work closely with our clients
-                             to ensure that we understand their unique needs and goals, and we use an agile methodology to deliver custom web solutions that meet those 
-                             needs.
+                            The returns from the market are variable and depend on factors like market conditions, investment strategy, and risk tolerance. Historically,
+                             the average annual return for the stock market is around 7–10%. However, individual results may vary. Diversifying investments and maintaining
+                              a long-term perspective can enhance the potential for favorable returns.
                             </div>
                         </div>
                     </div>
@@ -36,13 +36,14 @@ const FAQ = () => {
                     <div className="accordion-item questions-border">
                         <h2 className="accordion-header">
                             <button className="accordion-button collapsed onest-medium" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                            Will my website be mobile-friendly and responsive?
+                            Can I become a millionaire by investing in stocks?
                             </button>
                         </h2>
                         <div id="faq-content-2" className="accordion-collapse collapse" data-bs-parent="#faqlist">
                             <div className="accordion-body onest-medium">
-                            Yes, our agency design and develop websites that are mobile-friendly and responsive, meaning they can adapt to different screen sizes
-                             and devices. This is important for providing a seamless user experience and ensuring the website is accessible to a wider audience.
+                            Investing in stocks carries the potential for wealth accumulation, but becoming a millionaire depends on various factors like the amount invested, 
+                            market performance, and time. While stocks offer growth opportunities, it's crucial to adopt a diversified and long-term strategy. Individual results may
+                            vary based on market conditions and investment decisions.
                             </div>
                         </div>
                     </div>
@@ -50,13 +51,13 @@ const FAQ = () => {
                     <div className="accordion-item questions-border">
                         <h2 className="accordion-header">
                             <button className="accordion-button collapsed onest-medium" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                            Will my website be search engine optimized?
+                            Why is it important to diversify beyond stocks and bonds?
                             </button>
                         </h2>
                         <div id="faq-content-3" className="accordion-collapse collapse" data-bs-parent="#faqlist">
                             <div className="accordion-body onest-medium">
-                            Yes, we follow best practices for search engine optimization (SEO) in all of our web development projects, ensuring that your website is
-                             optimized for search engines and has the best possible chance of ranking well in search results.
+                            Diversifying beyond stocks and bonds is vital to manage risk. Different assets respond differently to market changes. A diverse portfolio
+                            balances risk, enhancing stability against market fluctuations.
                             </div>
                         </div>
                     </div>
@@ -64,12 +65,13 @@ const FAQ = () => {
                     <div className="accordion-item questions-border">
                         <h2 className="accordion-header">
                             <button className="accordion-button collapsed onest-medium" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
-                            Can you assist with domain registration and hosting?
+                            How will my portfolio be impacted by inflation?
                             </button>
                         </h2>
                         <div id="faq-content-4" className="accordion-collapse collapse" data-bs-parent="#faqlist">
                             <div className="accordion-body onest-medium">
-                            Yes, we offer domain registration services and can help you choose the right domain name for your business. We also provide hosting solutions to ensure your website is securely stored and accessible online.
+                           Inflation erodes purchasing power over time. Your portfolio may be impacted as the real value of money decreases. Diversifying into inflation-resistant assets 
+                           like real estate or commodities can help mitigate its effects.
                             </div>
                         </div>
                     </div>
@@ -77,12 +79,14 @@ const FAQ = () => {
                     <div className="accordion-item questions-border">
                         <h2 className="accordion-header">
                             <button className="accordion-button collapsed onest-medium" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
-                            What if I need additional features or functionality in the future?
+                            What’s the Next Step for Your Diversification?
                             </button>
                         </h2>
                         <div id="faq-content-5" className="accordion-collapse collapse" data-bs-parent="#faqlist">
                             <div className="accordion-body onest-medium">
-                            Our websites are built to be scalable and expandable. If you require additional features or functionality in the future, we can discuss your needs and provide solutions to enhance your website’s capabilities, ensuring it evolves alongside your business.
+                           Consider diversifying into different asset classes, such as real estate, commodities, or international markets. 
+                           Evaluate your risk tolerance and financial goals to determine the best mix. Regularly review and adjust your portfolio to align with changing market 
+                           conditions and personal objectives. Seeking professional advice can be beneficial.
                         </div>
                     </div>
                 </div>

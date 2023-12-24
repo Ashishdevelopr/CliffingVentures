@@ -15,7 +15,7 @@ const Home = () => {
                 <h1 class="display-3 fw-bold text-body-emphasis align-center lh-sm mb-3">
                 We Navigate the Path to Unlock Financial <span  className="gradient-text typewriter">
                 <Typewriter
-                  words={['Brand', 'Vision', 'Culture']}
+                  words={['Goals', 'Vision', 'Culture', "Education"]}
                   loop={false}
                   cursor={true}
                   cursorColor=' #FFAE3B'
@@ -28,11 +28,11 @@ const Home = () => {
                 />
               </span>
                 </h1>
-                <p class="fw-normal lh-base">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <p class="fw-normal lh-base">Navigating possibilities, sculpting futures. With a commitment to excellence, we transcend boundaries in every venture. Experience a realm of opportunities, where expertise meets innovation. Empower your journey with us – building success, one partnership at a time.</p>
 
                 <div class="d-grid gap-3 d-md-flex justify-content-md-start">
-                    <button type="button" class="button-primary">Know Services</button>
-                    <button type="button" class="button-secondary" onClick={()=>{navigate("/contact-us")}}>Contact Now</button>
+                    <button href="#service"type="button" className="button-primary text-center" style={{textDecoration:"none"}} >Know Services</button>
+                    <button type="button" className="button-secondary" onClick={()=>{navigate("/contact-us")}}>Contact Now</button>
                 </div>
             </div>
 
@@ -42,7 +42,7 @@ const Home = () => {
             </div>
           </div>
 
-        </div>
+        </div>       
         </div>
     )
 }

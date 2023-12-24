@@ -16,7 +16,7 @@ const Led = () => {
         <div className="row flex-lg-row align-items-center">
           <div class="col-lg-8">
             <h1 class="fs-2 fw-bold text-body-emphasis align-center lh-sm mb-3">
-              Aluminum Die Casting for LED <span className="gradient-text typewriter">
+              Aluminium Die Casting for LED <span className="gradient-text typewriter">
               </span>
             </h1>
             <p class="fw-normal lh-base">Whether your business offers many LED lights to high-rise buildings or streetlights to small towns, it will be difficult to find the right die caster for your business. Components of LED lights are made with aluminum pressure die casting as it offer great dimensional accuracy, besides being durable and sturdy. <br /><br />
