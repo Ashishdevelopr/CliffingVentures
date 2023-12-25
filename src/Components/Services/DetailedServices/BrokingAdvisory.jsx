@@ -1,7 +1,8 @@
 import React from 'react'
 import serviceBroking1 from "../../../assets/serviceBroking1.svg"
 import serviceBroking2 from "../../../assets/serviceBroking2.svg"
-
+import angelone from "../../../assets/angelone.webp"
+import "../Service.css"
 const BrokingAdvisory = () => {
   return (
     <div>
@@ -88,6 +89,51 @@ const BrokingAdvisory = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className='container'>
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center my-5">
+          <div class="col d-flex flex-column align-items-start gap-2">
+            <img src={angelone} className='img-fluid' />
+          </div>
+
+          <div class="row  py-5 row-cols-1 row-cols-lg-1">
+            <h2><strong>Seamless Investing</strong></h2>
+            <p className='mb-0'>Experience seamless investing with Angel One. Access the industry's best tools and expert insights to achieve your financial goals.</p>
+
+            <div class="feature col py-2 mt-3">
+
+              <h4 class="fs-5 fw-semibold">Zero Commission on Mutual Fund Investments/SIPs
+              </h4>
+              <p className='mb-0 fs-6'>Enjoy the compounding returns of mutual funds and SIPs, at no additional costs.
+              </p>
+
+            </div>
+            <div class="feature col py-2 ">
+
+              <h4 class="fs-5 fw-semibold">Portfolio Advisory
+              </h4>
+              <p className='mb-0 fs-6'>Access ready-to-invest, well-researched portfolios built by experts, empowering you to make informed investment decisions.
+              </p>
+
+            </div>
+            <div class="feature col py-2">
+
+              <h4 class="fs-5 fw-semibold">24/7 Order Placement
+              </h4>
+              <p className='mb-0 fs-6'>Place buy/sell orders for stocks, bonds, and other assets at any time, round the clock, so you never miss an opportunity in the fast-paced world of finance.
+              </p>
+
+            </div>
+          </div>
+
+
+
+
+
+
+        </div>
+
+
       </div>
     </div>
   )

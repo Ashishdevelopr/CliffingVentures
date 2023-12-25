@@ -12,3 +12,7 @@
     border: none;
     border-radius: 4px;
 }
+.feature:hover{
+background-color:#ffecca;
+border-radius: 12px;
+}
